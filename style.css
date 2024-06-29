@@ -1,0 +1,694 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.nav_bar {
+    background-color: rgb(19,25,33);
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.nav_logo{
+    height: 45px;
+    width: 85px;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.logo {
+    background-image: url("Amazon-Logo-White-PNG-Image.png");
+    height: 15px;
+    width: 100%;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+
+/* for clickable effect */
+.border{
+    border: 1px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+
+
+/* box two */
+.location {
+  height: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+.add_1 {
+    font-size: 0.75rem;
+    color: #CCCCCC;
+    padding-left: 17px;
+}
+.add_2 {
+     font-size: 1rem;
+     color: #FFFFFF;
+     padding-left: 5px;
+}
+.symbol {
+     display:flex
+}
+
+
+.search {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#all {
+    text-align: center;
+    padding-left: 13px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 60px;
+    height: 38px;
+    border: transparent;
+    background-color: rgb(212, 212, 212);
+}
+
+#search-bar {
+     height: 36px;
+     width: 700px;
+     border: transparent;
+}
+.button-ser {
+    height: 38.5px;
+    border: transparent;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 50px;
+    background-color: rgb(243, 168, 78);
+}
+#search-icon {
+    font-size: 20px;
+}
+.flag-div {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+#flag {
+    font-size: 20px;
+    display: flex;
+}
+#lang2 {
+    padding-left: 5px;
+    font-size: 15px;
+}
+#lag-div-a {
+     background-color: rgb(19,25,33);
+     color: white;
+     border: transparent;
+}
+
+.div-sign-in{
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#div-sign-in-a {
+    font-size: 0.7rem;
+}
+#div-sign-in-b {
+    background-color:rgb(19,25,33); ;
+    color: white;
+    border: transparent;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.div-return {
+    align-items: center;
+    padding: 10px;
+}
+#Return {
+    font-size: 0.8rem; 
+}
+#Return2 {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.cart {
+    padding: 5px;
+    display: flex;
+}
+#cart {
+    font-size: 30px;
+    padding-top: 8px;
+}
+#cart2 {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: last baseline;
+}
+
+/* nav_2 */
+.nav_2{
+    height: 39px;
+    background-color: rgb(35,47,62);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size:  0.9rem;
+}
+.nav-2-a {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    height: 100%;
+    width: 50px;
+}
+#nav-2-a {
+    font-size: 17px;
+    color: white;
+    padding-right: 5px;
+}
+#nav-2-a-1 {
+    font-size: 1rem;
+    color: white;
+}
+.nav-2-b {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#nav-2-b-1 {
+    color: white;
+}
+
+
+
+
+/* hero page */
+.main{
+    height: 1500px;
+    width: 100%;
+    /* margin-bottom: 20px; */
+}
+
+.heropage {
+    background-image: url("heropicture.jpg");
+    height: 350px;
+    background-size:cover ;
+    width: 100%;
+    z-index: 1;
+    padding-bottom: 35px;
+    position: relative; 
+}
+  
+.heropage:after {
+    content:""; 
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+    height: 10%;  
+}
+
+.shoping {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    align-items:flex-end;
+    z-index: 1;
+    margin-bottom: 15px
+}
+.box1 {
+    height: 385px;
+    width: 25%;
+    background-color: white;
+    margin: 20px;
+} 
+.box2 {
+    height: 385px;
+    width: 25%;
+    background-color: white;
+    margin: 20px;
+} 
+.box3 {
+    height: 385px;
+    width: 25%;
+    background-color: white;
+    margin: 20px;
+} 
+.box4 {
+    height: 385px;
+    width: 25%;
+    background-color: white;
+    margin: 20px;
+} 
+.shoping-1 {
+    display: flex;
+    background-size:cover ;
+    position: relative; 
+    margin-top: 15px
+}
+
+.box{
+    height: 385px;
+    width: 25%;
+    background-color: white;
+    margin: 20px;
+    margin-top: 0px;
+    z-index: 1;
+}
+
+#box-heading {
+    margin: 15px;
+}
+
+#box-image4 {
+     height: 70%;
+     width: 100%;
+     /* background-color: pink; */
+}
+
+#box-foot {
+    margin: 15px;
+}
+#box-foot-1 {
+    text-decoration: none;
+    color: #70c6e6;
+    font-size: 0.5 rem;
+}
+
+.box-image4T {
+    height: 95%;
+    width: 95%;
+    margin: 3%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+#box-image4-1 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.box-image4-1-a {
+    background-image: url("headset.jpg");
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+.box-image4-1-b {
+    background-image: url("keyboards.jpg");
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+/* box2 */
+#box-image4-2 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+.box-image4-1-c {
+    background-image: url("mise.jpg");
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+.box-image4-1-d {
+    background-image: url("chairs.jpg");
+    background-size:conatin ;
+    background-repeat: no-repeat;
+}
+
+.box-image4-2-a {
+    background-image: url("jeans.jpeg");
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+.box-image4-2-b {
+    background-image: url("tops.jpg");
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+.box-image4-2-c {
+    background-image: url("dress.jpg");
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+.box-image4-2-d {
+    background-image: url("shoes.jpg");
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+
+.box-image4-3-a {
+    background-image: url("dining.jpg");
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+.box-image4-3-b {
+    background-image: url("home.jpg");
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+.box-image4-3-c {
+    background-image: url("kitchen.jpg");
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+.box-image4-3-d {
+    background-image: url("health-and-beauty\ .jpg");
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+
+.box-image4T-1 {
+    height: 95%;
+    width: 95%;
+    margin: 2%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+#box-image4-1-1 {
+    height: 65%;
+    width: 100%;
+}
+
+.box-image4-4-a {
+    background-image: url("smartphone.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 95%;
+    margin: 5%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+#box-image4-txt-1 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-left: 5%;
+}
+#box-image4-2-1 {
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+.box-image4-4-b {
+    background-image: url("tablets.jpg");
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+.box-image4-4-c {
+    background-image: url("laptops.jpg");
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+.box-image4-4-d {
+    background-image: url("Tvs.jpg");
+    background-size:contain ;
+    background-repeat: no-repeat;
+}
+
+#box-image4-txt {
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+.div-pc {
+    background-image: url("pc.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 90%;
+    margin: 10%;
+}
+#box-image4-0 {
+    height: 65%;
+    width: 100%;
+    /* background-color: pink; */
+
+}
+.div-home {
+    background-image: url("home-1.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 90%;
+    margin: 10%;
+}
+.div-toy {
+    background-image: url("toy-1.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 90%;
+    margin: 10%;
+}
+.div-beauty {
+    background-image: url("beauty.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 90%;
+    margin: 10%;
+}
+
+.after-hero-page {
+    z-index: -2;
+    background-image: url("Screenshot\ 2024-06-28\ at\ 6.58.52\ PM.png");
+    background-size:cover ;
+    position: relative; 
+    height: 100%;
+    width: 100%;
+
+}
+
+.after-hero-page:after {
+    content:""; 
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+    height: 200%;  
+}
+.bestseller {
+    height: 281px;
+    margin: 20px;
+    background-color: white;
+}
+#bestseller-heading {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.div-image-bestseller {
+    height: 70%;
+    /* background-color: pink; */
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-1 {
+    width: 25%;
+    height: 95%;
+    background-image: url("img1.jpg");
+    background-size:contain ;
+    position: relative; 
+    background-repeat: no-repeat;
+}
+.img-2 {
+    width: 30%;
+    height: 99%;
+    background-image: url("img2.jpg");
+    background-size:contain ;
+    background-repeat: no-repeat;
+    position: relative; 
+    margin-top: 2.5%;
+    margin-right: 1%;
+}
+.img-3 {
+    width: 25%;
+    height: 99%;
+    background-image: url("img3.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    margin-right: 1% ;
+}
+.img-4 {
+    width: 6%;
+    height: 99%;
+    background-image: url("img4.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    position: relative; 
+    margin-right: 1% ;
+}
+.img-5 {
+    width: 18%;
+    height: 99%;
+    background-image: url("img5.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    position: relative; 
+    margin-right: 1% ;
+}
+.img-6 {
+    width: 15%;
+    height: 95%;
+    background-image: url("img6.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+
+
+
+/* footer */
+#sign-in {
+   padding-top: 45px;
+   text-align: center;
+}
+.hr1 {
+    border-top: 1px solid grey;
+   }
+#sign-in1a {
+   font-size: 0.8rem;
+   padding-top: 35px;
+   padding-bottom: 5px;
+}
+.sign {
+    height: 28px;
+    width: 250px;
+    font-weight: 700;
+    font-size: 0.8rem;
+    border-radius: 7px;
+    border-color: rgb(248,196,31);
+    background-color: rgb(248,196,31);
+}
+
+#newtext {
+    font-size: 0.8rem;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+#hyper_link { 
+   color: #70c6e6;
+   font-size: 0.5 rem;
+}
+#hr2 {
+padding-bottom: 20px;
+}
+.back-to-top {
+    background-color:rgb(50,70,91);
+    height: 49px;
+    width: 100%;
+    
+}
+
+#back-to-top1 {
+    color: white;
+    background-color: rgb(72,87,105);
+    text-align: center;
+    font-size: 0.8rem;
+    border: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.tkm {
+    background-color: rgb(35,47,62);
+    height: 360px;
+    color: white;
+    display: flex;
+    gap: 10%;
+    padding-left: 230px;
+    padding-top: 40px;
+}
+
+
+#hf1 {
+    color: white;
+    text-decoration: none;
+    font-size: 0.86rem;
+}
+
+#tb1 {
+  height: 200px;;
+}
+#tb2 {
+    height: 280px;;
+  }
+#tb3 {
+    height: 160px;;
+  }
+#tb4 {
+    height: 320px;;
+  }
+
+.tkm2 {
+    background-color: rgb(35,47,62);
+    height: 100px;
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 45%;
+}
+
+#hr3 {
+    background-color: rgb(58,70,83);
+    width: 100%;
+    border: 0;
+    height: 0.5px;
+    margin: 0 auto;
+}
+
+.acknowledgement {
+    height: 460px;
+    width: 100%;
+    background-color: rgb(19, 26, 35);
+}
+
+.ads {
+    color: white;
+    font-size: 0.725rem;
+    padding-top: 30px;  
+    width: 75%;
+    height: 380px;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+#font {
+    color: grey;
+}
+#row1 { 
+    text-align: top;
+    vertical-align: top;
+}
+.footer-copyright {
+    padding-top: 1.5rem;
+      color: white;
+      text-align: center;
+      font-size: 0.725rem;
+}
+#hyper_linkz {
+    text-decoration: none;
+    color: white;
+}
+#cp-mark {
+    padding-top: 0.5rem;
+}
+
