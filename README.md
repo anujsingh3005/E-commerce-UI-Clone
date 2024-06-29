@@ -1,2 +1,2 @@
 # first-project
-My first projrct
+This is my first projrct in web-devlopment, here i have tried to clone Amazon website(only front end so far).
